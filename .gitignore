@@ -1,1 +1,9 @@
 /django_react_demo/node_modules
+
+/django_react_demo/es6-tutorial
+/django_react_demo/NA
+/django_react_demo/.babelrc
+/django_react_demo/django_react_demo/wsgi.py
+
+/venv
+node_modules

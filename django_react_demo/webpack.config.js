@@ -1,8 +1,13 @@
 var path = require("path")
 var webpack = require('webpack')
 var BundleTracker = require('webpack-bundle-tracker')
+var HtmlWebpackPlugin = require('html-webpack-plugin')
+var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
+  template: path.resolve(__dirname, 'src/index.html')
+});
 
 module.exports = {
+
   context: __dirname,
 
   entry: {'index': './assets/js/index',
@@ -17,6 +22,11 @@ module.exports = {
 
   plugins: [
       new BundleTracker({filename: './webpack-stats.json'}),
+      new HtmlWebpackPlugin({
+        template: './assets/js/index.html',
+        filename: './index.html'
+      }),
+
   ],
 
   module: {
