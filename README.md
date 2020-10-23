@@ -16,7 +16,7 @@ pip3 install django
 
 npm update
 
-npm install --save-dev react react-dom webpack webpack-bundle-tracker babel babel-loader @babel/core @babel/preset-env babel-preset-es2015 babel-preset-react
+npm install --save-dev react react-dom webpack webpack-bundle-tracker webpack-cli babel babel-loader @babel/core @babel/preset-env babel-preset-es2015 babel-preset-react
 
 pip3 install django-webpack-loader
 
