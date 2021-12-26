@@ -24,5 +24,7 @@ sudo ./node_modules/.bin/webpack --config webpack.config.js --watch
 
 press ctrl + c
 
-python3 manage.py collectstatics
+python3 manage.py migrate
+
+python3 manage.py collectstatic
 
